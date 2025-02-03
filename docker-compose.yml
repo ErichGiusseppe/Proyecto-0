@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build:
+      context: ./  # Directorio que contiene el Dockerfile para FastAPI
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - app-network
+
+  react:
+    build:
+      context: ./front-proyecto0  # Directorio que contiene el Dockerfile para React
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
