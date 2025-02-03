@@ -12,3 +12,5 @@ Aquí podrás interactuar con la aplicación y verificar que todo esté funciona
 Entender el funcionamiento: Si deseas obtener más información sobre cómo funciona el proyecto y qué se implementó, puedes ver el siguiente video en YouTube:
 
 Ver video explicativo: https://youtu.be/jZQK9JbOQYQ
+
+Video v2 (en este si se ve la interfaz y no graba solo el visual): https://youtu.be/bqiTw9ESI0U
